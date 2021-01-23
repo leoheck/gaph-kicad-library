@@ -1,6 +1,5 @@
 EESchema-DOCLIB  Version 2.0
 EESchema-DOCLIB  Version 2.0
-EESchema-DOCLIB  Version 2.0
 #
 $CMP ASSOC
 D Astaroth (ASSoC) IC	
@@ -18,5 +17,4 @@ $CMP RT7299B
 D 8A, 18V, Synchronous Step-Down Converter	
 F https://www.richtek.com/assets/product_file/RT7299B/DS7299B-05.pdf
 $ENDCMP
-#End Doc Library
 #End Doc Library
