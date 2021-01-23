@@ -23,7 +23,7 @@ There are be 2 libraries. One for the GAPH made ICs and the second one, to add c
 1. GAPH Chips
 2. GAPH Custom Parts
 
-## Creating a new project and using this library
+## Creating a new project
 
 I recomend to add this library as a submodule to your project, as it follows:
 
