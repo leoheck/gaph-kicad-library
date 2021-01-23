@@ -238,12 +238,12 @@
   (pad R17 thru_hole circle (at 20.32 15.24) (size 1.6 1.6) (drill 1) (layers *.Cu *.Mask))
   (pad T17 thru_hole circle (at 20.32 17.78) (size 1.6 1.6) (drill 1) (layers *.Cu *.Mask))
   (pad U17 thru_hole circle (at 20.32 20.32) (size 1.6 1.6) (drill 1) (layers *.Cu *.Mask))
-  (model ${KISPRJMOD}/library/3d_packages/PGA-209_Socket.stp
+  (model ${KIPRJMOD}/library/3d_packages/PGA-209_Socket.stp
     (at (xyz 0 0 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))
   )
-  (model ${KISPRJMOD}/library/3d_packages/PGA-209_IC.stp
+  (model ${KIPRJMOD}/library/3d_packages/PGA-209_IC.stp
     (at (xyz 0 0 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))
