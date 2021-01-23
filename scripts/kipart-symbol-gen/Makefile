@@ -1,5 +1,5 @@
 
-kicad_lib = variscite.lib
+kicad_lib = generated.lib
 kicad_dcm = $(kicad_lib:.lib=.dcm)
 
 csv_files = $(shell find -maxdepth 1 -name "*.csv")
@@ -23,6 +23,7 @@ $(kicad_lib): $(lib_files)
 	@ echo "Total number of components in library = $$(grep ^DEF $(kicad_lib) | wc -l)"
 	@ for dcm_file in $(lib_files:.lib=.dcm); do cat $${dcm_file} >> $(kicad_dcm); done
 
+# Manual
 fixes:
 	@ sed -i '1iEESchema-LIBRARY Version 2.3' $(kicad_lib)
 	@ sed -i '2i#encoding utf-8' $(kicad_lib)
@@ -32,5 +33,6 @@ fixes:
 	@ sed -i '1iEESchema-DOCLIB  Version 2.0' $(kicad_dcm)
 	@ echo "#End Doc Library" >> $(kicad_dcm)
 	@ sed -i "/^\s*$$/d" $(kicad_dcm)
+
 clean:
 	rm -rf $(kicad_lib)

@@ -1,0 +1,107 @@
+##
+## ASSOC
+##
+DEF ASSOC  U     0 40 Y Y 1 L N
+F0 "U    " 200 250 60 H V L CNN
+F1 "ASSOC " 200 150 60 H V L CNN
+F2 "*LCC68*14* " 200 50 60 H I L CNN
+F3 "" 200 -150 60 H I L CNN
+DRAW
+X VIN 6 0 -100 200 R 50 50 1 1 W 
+X PVIN 4 0 -300 200 R 50 50 1 1 W 
+X PVIN 5 0 -400 200 R 50 50 1 1 W 
+X EN 10 0 -500 200 R 50 50 1 1 I 
+X PGOOD 14 0 -600 200 R 50 50 1 1 W 
+X RT/SYNC 1 0 -700 200 R 50 50 1 1 P 
+X SS/TR 9 0 -800 200 R 50 50 1 1 I 
+X GND 3 1200 -900 200 L 50 50 1 1 W 
+X GND 2 1200 -800 200 L 50 50 1 1 W 
+X COMP 8 1200 -600 200 L 50 50 1 1 P 
+X FB 7 1200 -500 200 L 50 50 1 1 P 
+X LX 12 1200 -300 200 L 50 50 1 1 W 
+X LX 11 1200 -200 200 L 50 50 1 1 W 
+X BOOT 13 1200 0 200 L 50 50 1 1 W 
+S 200 100 1000 -1000 1 1 0 f
+ENDDRAW
+ENDDEF
+DEF # Pin Function 0 40 Y Y 6 L N
+F0 "Function" 200 250 60 H V L CNN
+F1 "# Pin" 200 150 60 H V L CNN
+F2 "Obs" 200 50 60 H I L CNN
+F3 "" 200 -150 60 H I L CNN
+DRAW
+X  dl_i 0 0 200 R 50 50 1 1 B 
+X  dl_o 0 -100 200 R 50 50 1 1 B 
+X  vdd_async 0 -200 200 R 50 50 1 1 B 
+X  gpio_b_0 0 -300 200 R 50 50 1 1 B 
+X  gpio_b_1 0 -400 200 R 50 50 1 1 B 
+X  gpio_b_2 0 -500 200 R 50 50 1 1 B 
+X  gpio_b_3 0 -600 200 R 50 50 1 1 B 
+X  gpio_b_4 0 -700 200 R 50 50 1 1 B 
+X  gpio_b_5 0 -800 200 R 50 50 1 1 B 
+X  gpio_b_6 0 -900 200 R 50 50 1 1 B 
+X  gpio_b_7 0 -1000 200 R 50 50 1 1 B 
+X  gpio_b_8 0 -1100 200 R 50 50 1 1 B 
+X  gpio_b_9 0 -1200 200 R 50 50 1 1 B 
+X  gpio_b_10 0 -1300 200 R 50 50 1 1 B 
+X  gpio_b_11 0 -1400 200 R 50 50 1 1 B 
+X  vdd_periph 0 -1500 200 R 50 50 1 1 B 
+X  gpio_b_12 0 -1600 200 R 50 50 1 1 B 
+X  gpio_b_13 0 -1700 200 R 50 50 1 1 B 
+X  gpio_b_14 0 -1800 200 R 50 50 1 1 B 
+X  gpio_b_15 0 -1900 200 R 50 50 1 1 B 
+X  gpio_a_15 0 -2000 200 R 50 50 1 1 B 
+X  gpio_a_14 0 -2100 200 R 50 50 1 1 B 
+X  gpio_a_13 0 -2200 200 R 50 50 1 1 B 
+X  gpio_a_12 0 -2300 200 R 50 50 1 1 B 
+X  gpio_a_11 0 -2400 200 R 50 50 1 1 B 
+X  gpio_a_10 0 -2500 200 R 50 50 1 1 B 
+X  gpio_a_9 0 -2600 200 R 50 50 1 1 B 
+X  vdd_io 0 -2700 200 R 50 50 1 1 B 
+X  vdd_io 0 -2800 200 R 50 50 1 1 B 
+X  vdd_periph 0 -2900 200 R 50 50 1 1 B 
+X  gpio_a_8 0 -3000 200 R 50 50 1 1 B 
+X  gpio_a_7 0 -3100 200 R 50 50 1 1 B 
+X  gpio_a_6 0 -3200 200 R 50 50 1 1 B 
+X  gpio_a_5 0 -3300 200 R 50 50 1 1 B 
+X  gpio_a_4 0 -3400 200 R 50 50 1 1 B 
+X  gpio_a_3 0 -3500 200 R 50 50 1 1 B 
+X  gpio_a_2 0 -3600 200 R 50 50 1 1 B 
+X  gpio_a_1 0 -3700 200 R 50 50 1 1 B 
+X  gpio_a_0 0 -3800 200 R 50 50 1 1 B 
+X  vdd_core 0 -3900 200 R 50 50 1 1 B 
+X  spi_miso 0 -4000 200 R 50 50 1 1 B 
+X  spi_mosi 0 -4100 200 R 50 50 1 1 B 
+X  spi_clk 0 -4200 200 R 50 50 1 1 B 
+X  spi_ssn2 0 -4300 200 R 50 50 1 1 B 
+X  spi_ssn 0 -4400 200 R 50 50 1 1 B 
+X  test_tm 0 -4500 200 R 50 50 1 1 B 
+X  test_se 0 -4600 200 R 50 50 1 1 B 
+X  reset_n 0 -4700 200 R 50 50 1 1 B 
+X  vdd_periph 0 -4800 200 R 50 50 1 1 B 
+X  xtal 0 -4900 200 R 50 50 1 1 B 
+X  xtal 0 -5000 200 R 50 50 1 1 B 
+X  vdd_io 0 -5100 200 R 50 50 1 1 B 
+X  vdd_io 0 -5200 200 R 50 50 1 1 B 
+S 200 100 300 -5300 1 1 0 f
+X  gnd 0 0 200 R 50 50 2 1 B 
+S 200 100 300 -100 2 1 0 f
+X  gnd 0 0 200 R 50 50 3 1 B 
+S 200 100 300 -100 3 1 0 f
+X  gnd 0 0 200 R 50 50 4 1 B 
+X  gnd 0 -100 200 R 50 50 4 1 B 
+X  gnd 0 -200 200 R 50 50 4 1 B 
+S 200 100 300 -300 4 1 0 f
+X  gnd 0 0 200 R 50 50 5 1 B 
+X  gnd 0 -100 200 R 50 50 5 1 B 
+X  gnd 0 -200 200 R 50 50 5 1 B 
+S 200 100 300 -300 5 1 0 f
+X  gnd 0 0 200 R 50 50 6 1 B 
+X  gnd 0 -100 200 R 50 50 6 1 B 
+X  gnd 0 -200 200 R 50 50 6 1 B 
+X  gnd 0 -300 200 R 50 50 6 1 B 
+X  gnd 0 -400 200 R 50 50 6 1 B 
+X  gnd 0 -500 200 R 50 50 6 1 B 
+S 200 100 300 -600 6 1 0 f
+ENDDRAW
+ENDDEF
