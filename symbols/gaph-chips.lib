@@ -264,5 +264,231 @@ X GND 8 -600 -950 200 R 50 50 1 1 P
 X 1V8 9 -600 -1050 200 R 50 50 1 1 P
 ENDDRAW
 ENDDEF
+##
+## BERYL
+##
+DEF BERYL-MBLite  U     0 40 Y Y 7 L N
+F0 "U    " 200 250 60 H V L CNN
+F1 "BERYL-MBLite " 200 150 60 H V L CNN
+F2 "*PGA*209* " 200 50 60 H I L CNN
+F3 "" 200 -150 60 H I L CNN
+DRAW
+X clk_i 196 0 0 200 R 50 50 1 1 I 
+X rst_i 198 0 -100 200 R 50 50 1 1 I 
+X int_i 199 0 -200 200 R 50 50 1 1 I 
+X test_tm_i 31 1400 -200 200 L 50 50 1 1 I 
+X test_se_i 30 1400 -100 200 L 50 50 1 1 I 
+S 200 100 1200 -300 1 1 0 f
+X data_mem_i_0 189 0 0 200 R 50 50 2 1 I 
+X data_mem_i_1 188 0 -100 200 R 50 50 2 1 I 
+X data_mem_i_2 187 0 -200 200 R 50 50 2 1 I 
+X data_mem_i_3 186 0 -300 200 R 50 50 2 1 I 
+X data_mem_i_4 185 0 -400 200 R 50 50 2 1 I 
+X data_mem_i_5 184 0 -500 200 R 50 50 2 1 I 
+X data_mem_i_6 183 0 -600 200 R 50 50 2 1 I 
+X data_mem_i_7 182 0 -700 200 R 50 50 2 1 I 
+X data_mem_i_8 181 0 -800 200 R 50 50 2 1 I 
+X data_mem_i_9 180 0 -900 200 R 50 50 2 1 I 
+X data_mem_i_10 179 0 -1000 200 R 50 50 2 1 I 
+X data_mem_i_11 178 0 -1100 200 R 50 50 2 1 I 
+X data_mem_i_12 177 0 -1200 200 R 50 50 2 1 I 
+X data_mem_i_13 176 0 -1300 200 R 50 50 2 1 I 
+X data_mem_i_14 173 0 -1400 200 R 50 50 2 1 I 
+X data_mem_i_15 172 0 -1500 200 R 50 50 2 1 I 
+X data_mem_i_16 171 0 -1600 200 R 50 50 2 1 I 
+X data_mem_i_17 170 0 -1700 200 R 50 50 2 1 I 
+X data_mem_i_18 169 0 -1800 200 R 50 50 2 1 I 
+X data_mem_i_19 168 0 -1900 200 R 50 50 2 1 I 
+X data_mem_i_20 167 0 -2000 200 R 50 50 2 1 I 
+X data_mem_i_21 166 0 -2100 200 R 50 50 2 1 I 
+X data_mem_i_22 165 0 -2200 200 R 50 50 2 1 I 
+X data_mem_i_23 164 0 -2300 200 R 50 50 2 1 I 
+X data_mem_i_24 163 0 -2400 200 R 50 50 2 1 I 
+X data_mem_i_25 160 0 -2500 200 R 50 50 2 1 I 
+X data_mem_i_26 159 0 -2600 200 R 50 50 2 1 I 
+X data_mem_i_27 158 0 -2700 200 R 50 50 2 1 I 
+X data_mem_i_28 157 0 -2800 200 R 50 50 2 1 I 
+X data_mem_i_29 156 0 -2900 200 R 50 50 2 1 I 
+X data_mem_i_30 155 0 -3000 200 R 50 50 2 1 I 
+X data_mem_i_31 154 0 -3100 200 R 50 50 2 1 I 
+X data_mem_i_32 153 0 -3200 200 R 50 50 2 1 I 
+S 200 100 1000 -3300 2 1 0 f
+X inst_mem_i_0 29 0 0 200 R 50 50 3 1 I 
+X inst_mem_i_1 28 0 -100 200 R 50 50 3 1 I 
+X inst_mem_i_2 27 0 -200 200 R 50 50 3 1 I 
+X inst_mem_i_3 24 0 -300 200 R 50 50 3 1 I 
+X inst_mem_i_4 23 0 -400 200 R 50 50 3 1 I 
+X inst_mem_i_5 22 0 -500 200 R 50 50 3 1 I 
+X inst_mem_i_6 21 0 -600 200 R 50 50 3 1 I 
+X inst_mem_i_7 20 0 -700 200 R 50 50 3 1 I 
+X inst_mem_i_8 19 0 -800 200 R 50 50 3 1 I 
+X inst_mem_i_9 18 0 -900 200 R 50 50 3 1 I 
+X inst_mem_i_10 15 0 -1000 200 R 50 50 3 1 I 
+X inst_mem_i_11 14 0 -1100 200 R 50 50 3 1 I 
+X inst_mem_i_12 13 0 -1200 200 R 50 50 3 1 I 
+X inst_mem_i_13 12 0 -1300 200 R 50 50 3 1 I 
+X inst_mem_i_14 11 0 -1400 200 R 50 50 3 1 I 
+X inst_mem_i_15 10 0 -1500 200 R 50 50 3 1 I 
+X inst_mem_i_16 7 0 -1600 200 R 50 50 3 1 I 
+X inst_mem_i_17 6 0 -1700 200 R 50 50 3 1 I 
+X inst_mem_i_18 5 0 -1800 200 R 50 50 3 1 I 
+X inst_mem_i_19 4 0 -1900 200 R 50 50 3 1 I 
+X inst_mem_i_20 3 0 -2000 200 R 50 50 3 1 I 
+X inst_mem_i_21 2 0 -2100 200 R 50 50 3 1 I 
+X inst_mem_i_22 1 0 -2200 200 R 50 50 3 1 I 
+X inst_mem_i_23 208 0 -2300 200 R 50 50 3 1 I 
+X inst_mem_i_24 207 0 -2400 200 R 50 50 3 1 I 
+X inst_mem_i_25 206 0 -2500 200 R 50 50 3 1 I 
+X inst_mem_i_26 205 0 -2600 200 R 50 50 3 1 I 
+X inst_mem_i_27 204 0 -2700 200 R 50 50 3 1 I 
+X inst_mem_i_28 203 0 -2800 200 R 50 50 3 1 I 
+X inst_mem_i_29 202 0 -2900 200 R 50 50 3 1 I 
+X inst_mem_i_30 193 0 -3000 200 R 50 50 3 1 I 
+X inst_mem_i_31 192 0 -3100 200 R 50 50 3 1 I 
+S 200 100 1000 -3200 3 1 0 f
+X chip_data_mem_o_69 148 1400 -6900 200 L 50 50 4 1 O 
+X chip_data_mem_o_68 147 1400 -6800 200 L 50 50 4 1 O 
+X chip_data_mem_o_67 146 1400 -6700 200 L 50 50 4 1 O 
+X chip_data_mem_o_66 145 1400 -6600 200 L 50 50 4 1 O 
+X chip_data_mem_o_65 144 1400 -6500 200 L 50 50 4 1 O 
+X chip_data_mem_o_64 143 1400 -6400 200 L 50 50 4 1 O 
+X chip_data_mem_o_63 142 1400 -6300 200 L 50 50 4 1 O 
+X chip_data_mem_o_62 141 1400 -6200 200 L 50 50 4 1 O 
+X chip_data_mem_o_61 140 1400 -6100 200 L 50 50 4 1 O 
+X chip_data_mem_o_60 139 1400 -6000 200 L 50 50 4 1 O 
+X chip_data_mem_o_59 136 1400 -5900 200 L 50 50 4 1 O 
+X chip_data_mem_o_58 133 1400 -5800 200 L 50 50 4 1 O 
+X chip_data_mem_o_57 132 1400 -5700 200 L 50 50 4 1 O 
+X chip_data_mem_o_56 131 1400 -5600 200 L 50 50 4 1 O 
+X chip_data_mem_o_55 130 1400 -5500 200 L 50 50 4 1 O 
+X chip_data_mem_o_54 129 1400 -5400 200 L 50 50 4 1 O 
+X chip_data_mem_o_53 128 1400 -5300 200 L 50 50 4 1 O 
+X chip_data_mem_o_52 127 1400 -5200 200 L 50 50 4 1 O 
+X chip_data_mem_o_51 126 1400 -5100 200 L 50 50 4 1 O 
+X chip_data_mem_o_50 125 1400 -5000 200 L 50 50 4 1 O 
+X chip_data_mem_o_49 124 1400 -4900 200 L 50 50 4 1 O 
+X chip_data_mem_o_48 123 1400 -4800 200 L 50 50 4 1 O 
+X chip_data_mem_o_47 122 1400 -4700 200 L 50 50 4 1 O 
+X chip_data_mem_o_46 119 1400 -4600 200 L 50 50 4 1 O 
+X chip_data_mem_o_45 118 1400 -4500 200 L 50 50 4 1 O 
+X chip_data_mem_o_44 115 1400 -4400 200 L 50 50 4 1 O 
+X chip_data_mem_o_43 114 1400 -4300 200 L 50 50 4 1 O 
+X chip_data_mem_o_42 113 1400 -4200 200 L 50 50 4 1 O 
+X chip_data_mem_o_41 112 1400 -4100 200 L 50 50 4 1 O 
+X chip_data_mem_o_40 111 1400 -4000 200 L 50 50 4 1 O 
+X chip_data_mem_o_39 110 1400 -3900 200 L 50 50 4 1 O 
+X chip_data_mem_o_38 109 1400 -3800 200 L 50 50 4 1 O 
+X chip_data_mem_o_37 108 1400 -3700 200 L 50 50 4 1 O 
+X chip_data_mem_o_36 107 1400 -3600 200 L 50 50 4 1 O 
+X chip_data_mem_o_35 79 1400 -3500 200 L 50 50 4 1 O 
+X chip_data_mem_o_34 80 1400 -3400 200 L 50 50 4 1 O 
+X chip_data_mem_o_33 81 1400 -3300 200 L 50 50 4 1 O 
+X chip_data_mem_o_32 82 1400 -3200 200 L 50 50 4 1 O 
+X chip_data_mem_o_31 83 1400 -3100 200 L 50 50 4 1 O 
+X chip_data_mem_o_30 84 1400 -3000 200 L 50 50 4 1 O 
+X chip_data_mem_o_29 85 1400 -2900 200 L 50 50 4 1 O 
+X chip_data_mem_o_28 88 1400 -2800 200 L 50 50 4 1 O 
+X chip_data_mem_o_27 89 1400 -2700 200 L 50 50 4 1 O 
+X chip_data_mem_o_26 90 1400 -2600 200 L 50 50 4 1 O 
+X chip_data_mem_o_25 93 1400 -2500 200 L 50 50 4 1 O 
+X chip_data_mem_o_24 94 1400 -2400 200 L 50 50 4 1 O 
+X chip_data_mem_o_23 95 1400 -2300 200 L 50 50 4 1 O 
+X chip_data_mem_o_22 96 1400 -2200 200 L 50 50 4 1 O 
+X chip_data_mem_o_21 99 1400 -2100 200 L 50 50 4 1 O 
+X chip_data_mem_o_20 100 1400 -2000 200 L 50 50 4 1 O 
+X chip_data_mem_o_19 101 1400 -1900 200 L 50 50 4 1 O 
+X chip_data_mem_o_18 102 1400 -1800 200 L 50 50 4 1 O 
+X chip_data_mem_o_17 103 1400 -1700 200 L 50 50 4 1 O 
+X chip_data_mem_o_16 104 1400 -1600 200 L 50 50 4 1 O 
+X chip_data_mem_o_15 76 1400 -1500 200 L 50 50 4 1 O 
+X chip_data_mem_o_14 75 1400 -1400 200 L 50 50 4 1 O 
+X chip_data_mem_o_13 74 1400 -1300 200 L 50 50 4 1 O 
+X chip_data_mem_o_12 73 1400 -1200 200 L 50 50 4 1 O 
+X chip_data_mem_o_11 72 1400 -1100 200 L 50 50 4 1 O 
+X chip_data_mem_o_10 71 1400 -1000 200 L 50 50 4 1 O 
+X chip_data_mem_o_9 70 1400 -900 200 L 50 50 4 1 O 
+X chip_data_mem_o_8 69 1400 -800 200 L 50 50 4 1 O 
+X chip_data_mem_o_7 68 1400 -700 200 L 50 50 4 1 O 
+X chip_data_mem_o_6 65 1400 -600 200 L 50 50 4 1 O 
+X chip_data_mem_o_5 64 1400 -500 200 L 50 50 4 1 O 
+X chip_data_mem_o_4 61 1400 -400 200 L 50 50 4 1 O 
+X chip_data_mem_o_3 60 1400 -300 200 L 50 50 4 1 O 
+X chip_data_mem_o_2 59 1400 -200 200 L 50 50 4 1 O 
+X chip_data_mem_o_1 58 1400 -100 200 L 50 50 4 1 O 
+X chip_data_mem_o_0 57 1400 0 200 L 50 50 4 1 O 
+S 200 100 1200 -7000 4 1 0 f
+X chip_isnt_mem_o_16 56 1400 -1600 200 L 50 50 5 1 O 
+X chip_isnt_mem_o_15 53 1400 -1500 200 L 50 50 5 1 O 
+X chip_isnt_mem_o_14 52 1400 -1400 200 L 50 50 5 1 O 
+X chip_isnt_mem_o_13 51 1400 -1300 200 L 50 50 5 1 O 
+X chip_isnt_mem_o_12 50 1400 -1200 200 L 50 50 5 1 O 
+X chip_isnt_mem_o_11 49 1400 -1100 200 L 50 50 5 1 O 
+X chip_isnt_mem_o_10 46 1400 -1000 200 L 50 50 5 1 O 
+X chip_isnt_mem_o_9 45 1400 -900 200 L 50 50 5 1 O 
+X chip_isnt_mem_o_8 44 1400 -800 200 L 50 50 5 1 O 
+X chip_isnt_mem_o_7 43 1400 -700 200 L 50 50 5 1 O 
+X chip_isnt_mem_o_6 42 1400 -600 200 L 50 50 5 1 O 
+X chip_isnt_mem_o_5 41 1400 -500 200 L 50 50 5 1 O 
+X chip_isnt_mem_o_4 40 1400 -400 200 L 50 50 5 1 O 
+X chip_isnt_mem_o_3 37 1400 -300 200 L 50 50 5 1 O 
+X chip_isnt_mem_o_2 36 1400 -200 200 L 50 50 5 1 O 
+X chip_isnt_mem_o_1 35 1400 -100 200 L 50 50 5 1 O 
+X chip_isnt_mem_o_0 34 1400 0 200 L 50 50 5 1 O 
+S 200 100 1200 -1700 5 1 0 f
+X vdd_pad_0 33 0 0 200 R 50 50 6 1 W 
+X vdd_pad_1 48 0 -100 200 R 50 50 6 1 W 
+X vdd_pad_2 63 0 -200 200 R 50 50 6 1 W 
+X vdd_pad_3 78 0 -300 200 R 50 50 6 1 W 
+X vdd_pad_4 91 0 -400 200 R 50 50 6 1 W 
+X vdd_pad_5 105 0 -500 200 R 50 50 6 1 W 
+X vdd_pad_6 120 0 -600 200 R 50 50 6 1 W 
+X vdd_pad_7 134 0 -700 200 R 50 50 6 1 W 
+X vdd_pad_8 149 0 -800 200 R 50 50 6 1 W 
+X vdd_pad_9 194 0 -900 200 R 50 50 6 1 W 
+X gnd_pad_0 32 0 -1100 200 R 50 50 6 1 W 
+X gnd_pad_1 47 0 -1200 200 R 50 50 6 1 W 
+X gnd_pad_2 62 0 -1300 200 R 50 50 6 1 W 
+X gnd_pad_3 77 0 -1400 200 R 50 50 6 1 W 
+X gnd_pad_4 92 0 -1500 200 R 50 50 6 1 W 
+X gnd_pad_5 106 0 -1600 200 R 50 50 6 1 W 
+X gnd_pad_6 121 0 -1700 200 R 50 50 6 1 W 
+X gnd_pad_7 135 0 -1800 200 R 50 50 6 1 W 
+X gnd_pad_8 150 0 -1900 200 R 50 50 6 1 W 
+X gnd_pad_9 195 0 -2000 200 R 50 50 6 1 W 
+X gnd_pad_10 197 0 -2100 200 R 50 50 6 1 W 
+S 200 100 800 -2200 6 1 0 f
+X vdd_core_0 9 0 0 200 R 50 50 7 1 W 
+X vdd_core_1 17 0 -100 200 R 50 50 7 1 W 
+X vdd_core_2 26 0 -200 200 R 50 50 7 1 W 
+X vdd_core_3 39 0 -300 200 R 50 50 7 1 W 
+X vdd_core_4 55 0 -400 200 R 50 50 7 1 W 
+X vdd_core_5 67 0 -500 200 R 50 50 7 1 W 
+X vdd_core_7 86 0 -600 200 R 50 50 7 1 W 
+X vdd_core_6 97 0 -700 200 R 50 50 7 1 W 
+X vdd_core_8 116 0 -800 200 R 50 50 7 1 W 
+X vdd_core_9 137 0 -900 200 R 50 50 7 1 W 
+X vdd_core_10 151 0 -1000 200 R 50 50 7 1 W 
+X vdd_core_11 161 0 -1100 200 R 50 50 7 1 W 
+X vdd_core_12 174 0 -1200 200 R 50 50 7 1 W 
+X vdd_core_13 190 0 -1300 200 R 50 50 7 1 W 
+X vdd_core_14 200 0 -1400 200 R 50 50 7 1 W 
+X gnd_core_0 8 0 -1600 200 R 50 50 7 1 W 
+X gnd_core_1 16 0 -1700 200 R 50 50 7 1 W 
+X gnd_core_2 25 0 -1800 200 R 50 50 7 1 W 
+X gnd_core_3 38 0 -1900 200 R 50 50 7 1 W 
+X gnd_core_4 54 0 -2000 200 R 50 50 7 1 W 
+X gnd_core_5 66 0 -2100 200 R 50 50 7 1 W 
+X gnd_core_6 98 0 -2200 200 R 50 50 7 1 W 
+X gnd_core_7 87 0 -2300 200 R 50 50 7 1 W 
+X gnd_core_8 117 0 -2400 200 R 50 50 7 1 W 
+X gnd_core_9 138 0 -2500 200 R 50 50 7 1 W 
+X gnd_core_10 152 0 -2600 200 R 50 50 7 1 W 
+X gnd_core_11 162 0 -2700 200 R 50 50 7 1 W 
+X gnd_core_12 175 0 -2800 200 R 50 50 7 1 W 
+X gnd_core_13 191 0 -2900 200 R 50 50 7 1 W 
+X gnd_core_14 201 0 -3000 200 R 50 50 7 1 W 
+S 200 100 900 -3100 7 1 0 f
+ENDDRAW
+ENDDEF
 #
 #End Library

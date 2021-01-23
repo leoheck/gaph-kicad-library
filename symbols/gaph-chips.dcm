@@ -24,4 +24,9 @@ D Satan Standalone-Board Shield
 K ssoc-shield, satan-shield
 $ENDCMP
 #
+$CMP BERYL-MBLite
+D Beryl - MBLite
+F https://corfu.pucrs.br/svn/mblite-chip/
+$ENDCMP
+#
 #End Doc Library
