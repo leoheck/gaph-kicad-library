@@ -33,9 +33,9 @@ mkdir my-new-board
 cd my-new-board
 git init
 git submodule add git@github.com:leoheck/gaph-kicad-library.git library
-cp -r library/board/board.pro .
-cp -r library/fp-lib-table .
-cp -r library/sym-lib-table .
+cp library/board/board.pro .
+cp library/fp-lib-table .
+cp library/sym-lib-table .
 ```
 
 This is the same structure used in `board` sample project. The sample project can be used as a template for a new project too.
