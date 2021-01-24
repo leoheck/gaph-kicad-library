@@ -31,13 +31,11 @@ I recommend to add this library as a submodule to your project, as it follows:
 ```
 mkdir my-new-board
 cd my-new-board
+git init
 git submodule add git@github.com:leoheck/gaph-kicad-library.git library
-git submodule init
-git submodule update
-cp -r board/board.pro .
-cp -r board/fp-info-cache .
-cp -r board/fp-lib-table .
-cp -r board/sym-lib-table .
+cp -r library/board/board.pro .
+cp -r library/fp-lib-table .
+cp -r library/sym-lib-table .
 ```
 
 This is the same structure used in `board` sample project. The sample project can be used as a template for a new project too.
