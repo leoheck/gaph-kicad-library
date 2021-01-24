@@ -39,3 +39,10 @@ cp library/sym-lib-table .
 ```
 
 This is the same structure used in `board` sample project. The sample project can be used as a template for a new project too.
+
+# GAPH ICs
+
+- Beryl-MBLite: PGA-209, very complex interface, was never tested
+- SSoC: DIP-24, tested and works
+- CSoC: DIP-40, tested and works
+- ASSoC: PLCC-68, work in progress
