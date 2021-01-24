@@ -31,6 +31,5 @@ _autosave-*
 # Extra for this template only
 *.lib
 *-cache
-*-table
 *.sch
 *.kicad_pcb
