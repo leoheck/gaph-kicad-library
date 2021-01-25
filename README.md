@@ -40,7 +40,7 @@ cp library/sym-lib-table .
 
 This is the same structure used in `board` sample project. The sample project can be used as a template for a new project too.
 
-# GAPH ICs
+# GAPH/GSE ICs
 
 - [Beryl-Soc](https://corfu.pucrs.br/svn/mblite-chip/) (2014) : [MBLite](https://opencores.org/projects/mblite), PGA-209, very complex interface, was never tested
 - [SSoC](https://lesvos.pucrs.br/assoc/csoc) (2015): [HF-RISC](https://github.com/sjohann81/hf-risc), DIP-24, was tested and works
