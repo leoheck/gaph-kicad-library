@@ -43,6 +43,6 @@ This is the same structure used in `board` sample project. The sample project ca
 # GAPH ICs
 
 - [Beryl-Soc](https://corfu.pucrs.br/svn/mblite-chip/) (2014) : MBLite, PGA-209, very complex interface, was never tested
-- [SSoC](https://lesvos.pucrs.br/assoc/csoc) (2015): RISC, DIP-24, was tested and works
-- [CSoC](https://lesvos.pucrs.br/assoc/ssoc) (2016): RISC, DIP-40, was tested and works
-- [ASSoC](https://lesvos.pucrs.br/assoc/assoc) (2019): RISC-V, PLCC-68, evaluation in progress...
+- [SSoC](https://lesvos.pucrs.br/assoc/csoc) (2015): [HF-RISC](https://github.com/sjohann81/hf-risc), DIP-24, was tested and works
+- [CSoC](https://lesvos.pucrs.br/assoc/ssoc) (2016): [HF-RISC](https://github.com/sjohann81/hf-risc), DIP-40, was tested and works
+- [ASSoC](https://lesvos.pucrs.br/assoc/assoc) (2019): [HF-RISC-V](https://github.com/sjohann81/hf-risc), PLCC-68, evaluation in progress...
